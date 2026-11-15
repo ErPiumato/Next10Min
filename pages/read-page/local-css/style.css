@@ -1,0 +1,23 @@
+#msg {
+    min-height: 11rem;
+    padding: 1.1rem 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1.45;
+    background: var(--card);
+    border: 2px solid var(--line);
+    border-radius: 14px;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center
+}
+
+#msg.vuoto {
+    color: var(--muted);
+    font-size: 1.1rem
+}
+
+#msg.errore {
+    color: var(--err);
+    font-size: 1.1rem
+}

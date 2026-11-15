@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scrivi un messaggio</title>
+    <meta name="theme-color" content="#eef2f5">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="pages/index/local-css/style.css">
+</head>
+
+<body>
+    <main>
+        <textarea id="testo" maxlength="200" autofocus placeholder="Scrivi qualcosa (max 200 caratteri)"
+            aria-label="Il tuo messaggio"></textarea>
+        <div class="riga"><span id="stato" role="status"></span><span id="conta">200</span></div>
+        <button id="invia" disabled>Invia</button>
+    </main>
+    <script src="resources/js/supabase/config.js"></script>
+    <script src="pages/index/local-js/script.js"></script>
+</body>
+
+</html>
