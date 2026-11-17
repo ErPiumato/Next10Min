@@ -1,3 +1,7 @@
+[hidden] {
+    display: none !important
+}
+
 #msg {
     min-height: 11rem;
     padding: 1.1rem 1.2rem;
@@ -20,4 +24,21 @@
 #msg.errore {
     color: var(--err);
     font-size: 1.1rem
+}
+
+#pesca {
+    color: var(--on-accent);
+    background: var(--accent);
+    border: 0
+}
+
+#elimina {
+    color: var(--err);
+    background: transparent;
+    border: 2px solid var(--err)
+}
+
+#elimina.conferma {
+    color: var(--bg);
+    background: var(--err)
 }
