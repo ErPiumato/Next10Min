@@ -4,7 +4,7 @@ const t = document.getElementById("testo"),
     c = document.getElementById("conta");
 
 function aggiorna() {
-    c.textContent = 200 - t.value.length;
+    c.textContent = 500 - t.value.length;
     b.disabled = !t.value.trim();
 }
 
